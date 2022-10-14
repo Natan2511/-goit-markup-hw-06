@@ -468,9 +468,24 @@
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="icon-modal" width="17" height="17">
-            <use href=".//images/X.svg#icon-close"></use>
+            <use href=".//images/close.svg#icon-close"></use>
           </svg>
         </button>
+        <h2 class="modal-tittle">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="form-modal" name="inputs" autocomplets="on" novalidate>
+          <label for="name">Ім'я
+            <input type="text" name="username">
+          </label>
+          <label for="tel">Телефон
+            <input type="tel" name="tel">
+          </label>
+          <label for="email">Пошта
+            <input type="email" name="email">
+          </label>
+          <label for="comends">Коментар
+            <textarea class="textarea" name="comends" rows="5" placeholder="Введіть текст"></textarea>
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
